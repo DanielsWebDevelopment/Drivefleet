@@ -1,0 +1,132 @@
+#info-title {
+  text-align: center;
+  margin-top: 250px;
+}
+
+#info-title h1 span {
+  color: var(--text-span);
+}
+
+#info-title small {
+  letter-spacing: 0.2rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.info-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.info-card {
+  min-height: 300px;
+  width: 400px;
+  transition: 0.5s ease;
+  border-radius: 8px;
+  box-shadow: -2px 3px 15px rgb(0, 0, 0, 0.5);
+  background: #ffffff;
+}
+
+.info-card:hover {
+  border: 1px solid var(--text-span);
+  background-color: #111111;
+}
+
+.info-image img {
+  width: 100%;
+  padding: 30px;
+}
+
+.info-details {
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  line-height: 2.5rem;
+}
+
+.info-details button {
+  background: #ffffff;
+  color: #070707;
+  border: 1px solid #333;
+  padding: 5px 45px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-details button:hover {
+  background: var(--text-span);
+  color: #f0f0f0;
+}
+
+@media only screen and (max-width: 600px){
+  #info-title h1 {
+    font-size: 58px;
+    font-weight: 400;
+  }
+
+  #info-title small {
+    letter-spacing: 0.2rem;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    font-weight: 400;
+  }
+}
+
+/* =================MD Tablet Media Queries */
+@media only screen and (min-width: 602px) and (max-width: 900px){
+  #info-title h1 {
+    font-size: 58px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1024px){
+  #info-title h1 {
+    font-size: 62px;
+    font-weight: 400;
+    position: relative;
+    right: 40px;
+  }
+
+  #info-title small {
+    letter-spacing: 0.2rem;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    right: 40px;
+    font-weight: 400;
+  }
+
+  .info-card {
+    min-height: 300px;
+    width: 700px;
+    position: relative;
+    right: 50px;
+    transition: 0.5s ease;
+    border-radius: 8px;
+    box-shadow: -2px 3px 15px rgb(0, 0, 0, 0.5);
+    background: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+  #info-title h1 {
+    font-size: 72px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1454px){
+  #info-title h1{
+    font-size: 82px;
+    font-weight: 400;
+  }
+}

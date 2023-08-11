@@ -1,0 +1,128 @@
+#details-title h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#details-title span {
+    color: var(--text-span)
+}
+
+#details-info {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#details-info p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+#details-info {
+    background-color: #fafafa;
+}
+/* ====================SM Mobile Media Queries */
+@media only screen and (max-width: 600px){
+
+    #details-title h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 58px;
+        font-weight: 600;
+    }
+
+
+    #details-info p {
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 500;
+        color: #4d4d4d;
+        text-align: center;
+        padding: 120px;
+        position: relative;
+        bottom: 120px;
+    }
+}
+/* ====================MD Tablet Media Queries */
+@media only screen and (min-width: 602px) and (max-width: 900px){
+    #details-title h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 58px;
+        font-weight: 400;
+    }
+
+    #details-info p {
+        font-size: 17px;
+        line-height: 1.8;
+        font-weight: 500;
+        color: #4d4d4d;
+        text-align: center;
+        padding: 120px;
+        position: relative;
+        bottom: 120px;
+    }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1024px){
+    #details-title h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 62px;
+        font-weight: 400;
+        position: relative;
+        right: 50px;
+    }
+
+    #details-info p {
+        font-size: 17px;
+        line-height: 1.8;
+        font-weight: 500;
+        color: #4d4d4d;
+        text-align: center;
+        position: relative;
+        right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    #details-title h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 72px;
+        font-weight: 400;
+    }
+
+    #details-info p {
+        font-size: 19px;
+        line-height: 1.8;
+        font-weight: 500;
+        color: #4d4d4d;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1454px){
+    #details-title h1 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 82px;
+        font-weight: 400;
+    }
+
+    #details-info p {
+        font-size: 19px;
+        line-height: 1.8;
+        font-weight: 500;
+        color: #4d4d4d;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    #details-info {
+        background-color: #fafafa;
+        height: 250px;
+    }
+}

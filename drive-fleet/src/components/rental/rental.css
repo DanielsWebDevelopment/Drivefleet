@@ -1,0 +1,216 @@
+.rentals-container {
+    display: block;
+    text-align: center;
+    margin-top: 950px;
+}
+
+.retails-info-title span {
+    color: var(--text-span);
+}
+
+.retails-info-title h1 {
+    font-size: 72px;
+    position: relative;
+    bottom: 580px;
+    font-weight: 400;
+}
+
+.rentals-cta button {
+    position: relative;
+    bottom: 1050px;
+    right: 264px;
+    background: var(--cta-color);
+    color: #fff;
+    padding:20px 45px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.rentals-cta a{
+    color: #fff;
+}
+
+.rentals-cta button:hover {
+    color: #fff;
+    background: var(--cta-hover);
+} 
+
+.rentalcar-image {
+    position: relative;
+    bottom: 350px;
+}
+
+.rentalcar-image img {
+    height: 500px;
+    width: 1000px;
+}
+
+.retails-info-title button {
+    background-color: #333;
+    color: #333;
+}
+/* ================== SM Mobile media queries */
+@media only screen and (max-width: 600px){
+    .retails-info-title h1 {
+        font-size: 58px;
+        position: relative;
+        bottom: 590px;
+        font-weight: 400;
+    }
+
+    .rentals-cta button {
+        position: relative;
+        bottom: 370px;
+        right: 150px;
+        background: var(--cta-color);
+        color: hsl(0, 0%, 100%);
+        padding: 9px  50px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .rentals-cta a{
+        color: #fff;
+    }
+
+    .rentalcar-image img {
+        height: 500px;
+        width: 900px;
+        padding: 82px;
+        position: relative;
+        right: 30px;
+    }
+
+    .rentalcar-image {
+        position: relative;
+        bottom: 450px;
+        right: 150px;
+    }
+}
+
+/* ================== MD Tablet media queries */
+@media only screen and (min-width: 602px) and (max-width: 900px){
+    .retails-info-title h1 {
+        font-size: 52px;
+        position: relative;
+        bottom: 590px;
+        font-weight: 400;
+    }
+
+    .rentals-cta button {
+        position: relative;
+        bottom: 370px;
+        right: 300px;
+        background: var(--cta-color);
+        color: hsl(0, 0%, 100%);
+        padding: 9px  50px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .rentals-cta a{
+        color: #fff;
+    }
+
+    .rentalcar-image img {
+        position: relative;
+        right: 50px;
+        bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1024px){
+    .retails-info-title h1 {
+        font-size: 62px;
+        position: relative;
+        bottom: 590px;
+        right: 50px;
+        font-weight: 400;
+    }
+
+    .rentals-cta button {
+        position: relative;
+        bottom: 370px;
+        right: 340px;
+        background: var(--cta-color);
+        color: hsl(0, 0%, 100%);
+        padding: 9px  50px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .rentals-cta a{
+        color: #fff;
+    }
+
+    .rentalcar-image img {
+        position: relative;
+        right: 50px;
+        bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .rentals-cta button {
+        position: relative;
+        bottom: 370px;
+        right: 340px;
+        background: var(--cta-color);
+        color: hsl(0, 0%, 100%);
+        padding: 9px  50px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .rentals-cta a{
+        color: #fff;
+    }
+
+    .rentalcar-image img {
+        position: relative;
+        right: 0px;
+        bottom: 150px;
+    }
+
+    .rentalcar-image img {
+        height: 800px;
+        width: 1350px;
+        padding: 82px;
+        position: relative;
+        right: 120px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1454px){
+    .rentals-cta button {
+        position: relative;
+        bottom: 370px;
+        right: 540px;
+        background: var(--cta-color);
+        color: hsl(0, 0%, 100%);
+        padding: 19px  120px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: transform 300ms ease;
+    }
+
+    .rentals-cta a{
+        color: #fff;
+    }
+
+    .rentals-cta button:hover{
+        transform: scale(1.1);
+    }
+}

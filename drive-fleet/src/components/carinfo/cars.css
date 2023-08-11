@@ -1,0 +1,190 @@
+.carinfo-container {
+  margin: 350px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 120px;
+}
+
+.solo-card {
+  height: 400px;
+  width: 400px;
+  background-color: #333;
+  border-radius: 10px;
+  position: relative;
+  /* right: 100px; */
+}
+
+#car-info-title h2 {
+  font-size: 50px;
+  position: relative;
+  right: 100px;
+}
+
+#car-info-title {
+  margin: 0 auto;
+}
+
+#car-info-details p {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+  line-height: 1.7;
+  letter-spacing: 0.1rem;
+  right: 100px;
+}
+
+.tesla-image {
+  position: relative;
+  top: 60px;
+  right: 80px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.car-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 300px;
+}
+
+.line {
+  margin: 50px;
+  width: 80%;
+  height: 3px;
+  background: var(--text-span);
+  position: relative;
+  right: 150px;
+  bottom: 10px;
+}
+
+@media only screen and (min-width: 600px){
+  .detailsp{
+    position: relative;
+    top: 100px;
+    padding: 80px;
+    text-align: left;
+  }
+
+  .info-titles h2 {
+    position: relative;
+    top: 160px;
+    left: 100px;
+  }
+
+  .car-image1 {
+    display: block;
+  }
+}
+
+/* ================ MD Tablet Media Queries */
+@media only screen and (min-width: 602px) and (max-width: 900px){
+  .detailsp{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    padding: 80px;
+    text-align: right;
+  }
+
+  .info-titles h2 {
+    position: relative;
+    top: 180px;
+    left: 240px;
+  }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1024px){
+  .detailsp{
+    position: relative;
+    top: 100px;
+    right: 400px;
+    padding: 80px;
+    text-align: right;
+  }
+
+  .info-titles h2 {
+    position: relative;
+    top: 180px;
+    left: 40px;
+  }
+
+  .line {
+    margin: 50px;
+    width: 80%;
+    height: 3px;
+    background: var(--text-span);
+    position: relative;
+    right: 0px;
+    bottom: 10px;
+  }
+
+  .car-image1 {
+    position: relative;
+    left: 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+  .detailsp{
+    position: relative;
+    top: 100px;
+    right: 550px;
+    padding: 80px;
+    text-align: right;
+  }
+
+  .info-titles h2 {
+    position: relative;
+    top: 180px;
+    left: 30px;
+  }
+
+  .line {
+    margin: 50px;
+    width: 80%;
+    height: 3px;
+    background: var(--text-span);
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+  }
+
+  .car-image1 {
+    position: relative;
+    left: 650px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1454px){
+  .detailsp{
+    position: relative;
+    top: 10px;
+    right: 250px;
+    padding: 80px;
+    text-align: right;
+  }
+
+  .info-titles h2 {
+    position: relative;
+    top: 80px;
+    left: 650px;
+  }
+
+  .line {
+    margin: 50px;
+    width: 50%;
+    height: 3px;
+    background: var(--text-span);
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+  }
+}

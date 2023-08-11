@@ -1,0 +1,112 @@
+.testimonials__container {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    padding: 50px;
+}
+
+.testimonials-heading {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.testimonials-heading h1 span {
+    color: var(--text-span);
+}
+
+.test-image img {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    background: #f8f8f8;
+    padding: 3rem;
+    border: 1px solid transparent;
+    box-shadow: -4px 4px 20px rgb(0,0,0,0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testimonials-rating {
+    color: #f0be1b;
+}
+
+.testimonial:hover {
+    background: #fff;
+    border: 1px solid var(--text-span);
+}
+
+.testimonials__client {
+    display: flex;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    .testimonials-heading h1 {
+        font-size: 58px;
+        font-weight: 400;
+    }
+
+    .testimonials__container {
+        margin-top: 150px;
+        display: block;
+        padding: 30px;
+    }
+}
+
+/* ================ MD Tablet Media Queries */
+@media only screen and (min-width: 602px) and (max-width: 900px){
+    .testimonials-heading h1 {
+        font-size: 68px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1024px){
+    .testimonials-heading h1 {
+        font-size: 62px;
+        font-weight: 400;
+        position: relative;
+        right: 40px;
+    }
+
+    .testimonials__container {
+        margin-top: 150px;
+        display: block;
+        gap: 1.2rem;
+        padding: 50px;
+        width: 90%;
+    }
+
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        background: #f8f8f8;
+        padding: 1rem;
+        border: 1px solid transparent;
+        box-shadow: -4px 4px 20px rgb(0,0,0,0.3);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .testimonials-heading h1 {
+        font-size: 72px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1454px){
+    .testimonials-heading h1 {
+        font-size: 82px;
+        font-weight: 400;
+    }
+}
