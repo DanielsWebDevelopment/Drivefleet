@@ -1,6 +1,6 @@
 # Welcome to Drive Fleet! (Built with React Js) 
 
-### Drive feels allows users to view different types of tesla model from,
+### Drive feels allows users to view different types of tesla models from,
 ### the tesla model X to the tesla modelS Preformaance, 
 
 This project was built to improve my react knowledge when developing this site,
